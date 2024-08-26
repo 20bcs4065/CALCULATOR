@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <title>C A L C U L A T O R</title>
+    <head>
+        <h1 style="text-align: center;">C A L C U L A T O R</h1>
+        <link rel="stylesheet" href="./cal.css">
+    </head>
+    <body>
+        <div class="frame">
+            <input class="inp" id="calcu" type="text" onchange="topf()">
+            <div class="row">
+                <button  class="but-g" onclick="cle()">C</button>
+                <button id="" class="but-g" onclick="del()">Del</button>
+                <button id="percent" class="but-g" onclick="per()">%</button>
+                <button id="divide" class="but-o" onclick="di()">/</button>
+            </div>
+            <div class="row">
+                <button id="sev" class="but-b" onclick="val7()">7 </button>
+                <button id="eig" class="but-b" onclick="val8()">8</button>
+                <button id="nin" class="but-b" onclick="val9()">9</button>
+                <button id="multiply" class="but-o" onclick="mu()">x</button>
+            </div>
+            <div class="row">
+                <button class="but-b" onclick="val4()">4</button>
+                <button class="but-b" onclick="val5()">5</button>
+                <button class="but-b" onclick="val6()">6</button>
+                <button class="but-o" onclick="mi()">-</button>
+            </div>
+            <div class="row">
+                <button class="but-b" onclick="val1()">1</button>
+                <button class="but-b" onclick="val2()">2</button>
+                <button class="but-b" onclick="val3()">3</button>
+                <button class="but-o" onclick="pl()">+</button>
+            </div>
+            <div class="row">
+                <button class="but-b-two" onclick="val0()">0</button>
+                <button class="but-b" onclick="dot()">.</button>
+                <button class="but-o" onclick="process()">=</button>
+            </div>
+        </div>
+    </body>
+    <script src="./cal.js"></script>
+</html>

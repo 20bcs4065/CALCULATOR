@@ -1,0 +1,59 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.frame{
+    margin: 3%;
+    width: 94%;
+    height: 585px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding:20%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    box-sizing: border-box; 
+}
+.inp{
+    margin-top: 5%;
+    width: 40%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 450%;
+    border: black;
+    direction: ltr;
+}
+.inp:focus {
+    outline: none;
+    border: none;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin:2%;
+}
+.but-g ,.but-o,.but-b-two,.but-b{
+    box-sizing: border-box; 
+    width: 9%;
+    height: 70px;
+    border-radius: 50px;
+    margin: 0 10px;
+    background-color: rgb(166, 166, 166);
+    color: black;
+    border-style: none;
+    font-size: 150%;
+    cursor: pointer;
+}
+.but-o{
+    background-color: orange;
+    color: white;
+}
+.but-b-two{
+    width: 21%;
+    text-align: left;
+    padding-left: 30px;
+}
+.but-b-two,.but-b{
+    background-color: rgb(53, 52, 52);
+    color: white;
+}
